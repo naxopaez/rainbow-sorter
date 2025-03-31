@@ -55,11 +55,3 @@ npm run dev
 
 La aplicación está desplegada en GitHub Pages y se puede acceder a través de:
 [https://nachopaezz.github.io/rainbow-sorter/](https://nachopaezz.github.io/rainbow-sorter/)
-
-## Autores
-
-- [Nacho Paez](https://github.com/nachopaezz)
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT.
