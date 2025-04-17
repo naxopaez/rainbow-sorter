@@ -1,4 +1,4 @@
-# Rainbow S0rter 
+# Rainbow Sorter 
 Rainbow Sorter es una aplicación interactiva que permite a los usuarios ordenar los colores del arcoíris mediante un sistema de arrastrar y soltar. El juego está diseñado para ser educativo y entretenido, ayudando a los usuarios a familiarizarse con el orden correcto de los colores en un arcoíris.
 
 ## Características principales
