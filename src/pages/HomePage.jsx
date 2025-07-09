@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
@@ -127,6 +128,19 @@ const RainbowCircle = styled(motion.div)`
 
 const HomePage = () => {
   const { dark } = useTheme();
+  
+  // Forzar renderizado en la carga inicial
+  useEffect(() => {
+    // Marca para indicar que la página está montada correctamente
+    document.title = "Rainbow Sorter - Inicio";
+    
+    // Forzar re-renderizado para asegurarse de que los estilos se apliquen
+    const timer = setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+    }, 100);
+    
+    return () => clearTimeout(timer);
+  }, []);
   
   const features = [
     {

@@ -7,6 +7,18 @@
     <meta name="theme-color" content="#4285f4" />
     <meta name="description" content="Juego de ordenar los colores del arcoíris" />
     <title>Rainbow Sorter</title>
+    <script type="text/javascript">
+      // Comprobar si estamos en un entorno de GitHub Pages
+      if (window.location.host.includes('github.io') && window.location.pathname === '/rainbow-sorter/') {
+        // Forzar la carga completa de la página
+        window.onload = function() {
+          // Manejar posibles problemas de rutas
+          if (!window.location.hash) {
+            window.location.hash = '#/';
+          }
+        };
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
