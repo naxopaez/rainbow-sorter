@@ -53,4 +53,4 @@ npm run dev
 ## Despliegue
 
 La aplicación está desplegada en GitHub Pages y se puede acceder a través de:
-[https://nachopaezz.github.io/rainbow-sorter/](https://nachopaezz.github.io/rainbow-sorter/)
+[https://nachopaezz.github.io/rainbow-sorter/](https://naxopaez.github.io/rainbow-sorter/#/)
